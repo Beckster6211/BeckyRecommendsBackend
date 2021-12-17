@@ -17,7 +17,7 @@ const food = [
   {
     food: "Flying Saucers",
     recipe: "Anywhere & Everywhere (all good none bad)",
-    why: "My first and favourite sweet",
+    why: "My first ever and favourite sweet",
   },
 ];
 
