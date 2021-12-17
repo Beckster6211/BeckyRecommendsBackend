@@ -3,8 +3,8 @@ var cors = require("cors");
 const app = express();
 const port = 3002;
 
-const dotenv = require("dotenv");
-dotenv.config();
+// const dotenv = require("dotenv");
+// dotenv.config();
 
 const foodRouter = require("./routes/food");
 
