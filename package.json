@@ -17,6 +17,18 @@
     "create-bec-food-table": "node -r dotenv/config db/scripts/food/createBecFoodTable.js",
     "populate-bec-food-table": "node -r dotenv/config db/scripts/food/populateBecFoodTable.js",
     "drop-bec-food-table": "node -r dotenv/config db/scripts/food/dropBecFoodTable.js",
+    "create-bec-film-table": "node -r dotenv/config db/scripts/film/createBecFilmTable.js",
+    "populate-bec-film-table": "node -r dotenv/config db/scripts/film/populateBecFilmTable.js",
+    "drop-bec-film-table": "node -r dotenv/config db/scripts/film/dropBecFilmTable.js",
+    "create-bec-read-table": "node -r dotenv/config db/scripts/read/createBecReadTable.js",
+    "populate-bec-read-table": "node -r dotenv/config db/scripts/read/populateBecReadTable.js",
+    "drop-bec-read-table": "node -r dotenv/config db/scripts/read/dropBecReadTable.js",
+    "create-bec-stay-table": "node -r dotenv/config db/scripts/stay/createBecStayTable.js",
+    "populate-bec-stay-table": "node -r dotenv/config db/scripts/stay/populateBecStayTable.js",
+    "drop-bec-stay-table": "node -r dotenv/config db/scripts/stay/dropBecStayTable.js",
+    "create-bec-tele-table": "node -r dotenv/config db/scripts/tele/createBecTeleTable.js",
+    "populate-bec-tele-table": "node -r dotenv/config db/scripts/tele/populateBecTeleTable.js",
+    "drop-bec-tele-table": "node -r dotenv/config db/scripts/tele/dropBecTeleTable.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
