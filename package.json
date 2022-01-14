@@ -29,6 +29,9 @@
     "create-bec-tele-table": "node -r dotenv/config db/scripts/tele/createBecTeleTable.js",
     "populate-bec-tele-table": "node -r dotenv/config db/scripts/tele/populateBecTeleTable.js",
     "drop-bec-tele-table": "node -r dotenv/config db/scripts/tele/dropBecTeleTable.js",
+    "create-bec-visit-table": "node -r dotenv/config db/scripts/visit/createBecVisitTable.js",
+    "populate-bec-visit-table": "node -r dotenv/config db/scripts/visit/populateBecVisitTable.js",
+    "drop-bec-visit-table": "node -r dotenv/config db/scripts/visit/dropBecVisitTable.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
