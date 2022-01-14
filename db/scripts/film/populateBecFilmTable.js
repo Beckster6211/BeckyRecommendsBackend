@@ -2,7 +2,7 @@ let { query } = require("../../index");
 
 let film = require("../../../data/film");
 
-let insertData = `INSERT INTO becFilmTable(film, provider, connected, genre, description, why) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *`;
+let insertData = `INSERT INTO becFilmTable(film, provider, connected, genre, description, why, emoji) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *`;
 
 async function populateBecFilmTable(array) {
   for (let index = 0; index < array.length; index++) {
@@ -13,6 +13,7 @@ async function populateBecFilmTable(array) {
       array[index].genre,
       array[index].description,
       array[index].why,
+      array[index].emoji,
     ];
     let result = await query(insertData, values);
     console.log(result);

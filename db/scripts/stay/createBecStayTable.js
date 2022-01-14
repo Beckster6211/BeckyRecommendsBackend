@@ -5,7 +5,8 @@ let sqlStatement = `CREATE TABLE IF NOT EXISTS becStayTable(
     what TEXT,
     location TEXT DEFAULT '',
     details TEXT DEFAULT '',
-    why TEXT DEFAULT ''
+    why TEXT DEFAULT '',
+    emoji TEXT DEFAULT ''
 );`;
 
 async function createBecStayTable() {

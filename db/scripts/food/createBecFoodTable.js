@@ -4,7 +4,8 @@ const sqlStatement = `CREATE TABLE IF NOT EXISTS becFoodTable(
     id SERIAL PRIMARY KEY,
     food TEXT,
     recipe TEXT,
-    why TEXT
+    why TEXT,
+    emoji TEXT DEFAULT ''
 );`;
 
 async function createBecFoodTable() {

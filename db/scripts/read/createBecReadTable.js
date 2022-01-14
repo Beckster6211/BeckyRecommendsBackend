@@ -8,7 +8,8 @@ let sqlStatement = `CREATE TABLE IF NOT EXISTS becReadTable(
     genre TEXT DEFAULT '',
     numberOfBooks INTEGER,
     description TEXT DEFAULT '',
-    why TEXT DEFAULT ''
+    why TEXT DEFAULT '',
+    emoji TEXT DEFAULT ''
 );`;
 
 async function createBecReadTable() {

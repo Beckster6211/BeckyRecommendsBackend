@@ -9,6 +9,7 @@ let read = [
     description:
       "The later teen years of Isabella 'Bella' Swan, a girl who moves to Forks, Washington, from Phoenix, Arizona and falls in love with a 104-year-old vampire named Edward Cullen.",
     why: "Tells more backstory about the other characters. Alice and Jasper are the best. Sod the stupid love triangle.",
+    emoji: "🧛",
   },
 ];
 

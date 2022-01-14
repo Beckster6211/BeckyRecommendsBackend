@@ -8,7 +8,8 @@ let sqlStatement = `CREATE TABLE IF NOT EXISTS becTeleTable(
     genre TEXT DEFAULT '',
     numberOfSeries INTEGER,
     description TEXT DEFAULT '',
-    why TEXT DEFAULT ''
+    why TEXT DEFAULT '',
+    emoji TEXT DEFAULT ''
 );`;
 
 async function createBecTeleTable() {
