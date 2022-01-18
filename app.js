@@ -27,6 +27,9 @@ app.use("/becstay", stayRouter);
 app.use("/bectele", teleRouter);
 app.use("/becvisit", visitRouter);
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Example app listening at http://localhost:${port}`);
+// });
+
+app.listen(process.env.PORT || 3000);
+module.exports = app;

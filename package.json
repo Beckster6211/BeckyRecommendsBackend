@@ -13,7 +13,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node -r dotenv/config .bin/www",
     "create-bec-food-table": "node -r dotenv/config db/scripts/food/createBecFoodTable.js",
     "populate-bec-food-table": "node -r dotenv/config db/scripts/food/populateBecFoodTable.js",
     "drop-bec-food-table": "node -r dotenv/config db/scripts/food/dropBecFoodTable.js",
