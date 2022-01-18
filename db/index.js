@@ -3,10 +3,10 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 // const pool = new Pool({
-//   user: "cytokhhftpxent",
-//   host: "ec2-52-209-171-51.eu-west-1.compute.amazonaws.com",
-//   database: "df9u1dnbrb2u4b",
-//   password: "d298e5cc36bc384af978e50b48af24094df3bdaeb90e71083d8373027708aebb",
+//   user: "wlzvicaillwuwc",
+//   host: "ec2-52-213-119-221.eu-west-1.compute.amazonaws.com",
+//   database: "d7ue4heipg8s50",
+//   password: "9d00852fbd27fcaad12a808ae62d52ad87a5455e2bbc6412edc4cc0b759bc785",
 //   port: 5432,
 //   ssl: {
 //     rejectUnauthorized: false,
