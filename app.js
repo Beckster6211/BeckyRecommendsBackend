@@ -27,9 +27,11 @@ app.use("/becstay", stayRouter);
 app.use("/bectele", teleRouter);
 app.use("/becvisit", visitRouter);
 
+//  this for local host credientials
 // app.listen(port, () => {
 //   console.log(`Example app listening at http://localhost:${port}`);
 // });
 
+// this for heroku credientials
 app.listen(process.env.PORT || 3000);
 module.exports = app;
